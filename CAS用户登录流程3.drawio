@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2020-08-15T08:37:58.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="9sjVWU3SdeP6Lg3F53eO" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-15T09:05:29.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="5uQeMSKfYCE5lVc48Hid" version="13.6.2" type="github">
   <diagram id="9yGuTlsZ8Y7SOnh658ti" name="第 1 页">
     <mxGraphModel dx="2066" dy="1041" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cOHTzzDG18c5NZVRI5Rh-1" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="78" y="113" width="100" height="407" as="geometry" />
+        <mxCell id="cOHTzzDG18c5NZVRI5Rh-1" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="78" y="113" width="100" height="385" as="geometry" />
         </mxCell>
-        <mxCell id="cOHTzzDG18c5NZVRI5Rh-5" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="238" y="113" width="100" height="410" as="geometry" />
+        <mxCell id="cOHTzzDG18c5NZVRI5Rh-5" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="238" y="113" width="100" height="385" as="geometry" />
         </mxCell>
-        <mxCell id="cOHTzzDG18c5NZVRI5Rh-11" value="GET http://a.com/page2" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="cOHTzzDG18c5NZVRI5Rh-5" edge="1">
+        <mxCell id="cOHTzzDG18c5NZVRI5Rh-11" value="GET http://a.com/page2" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=none;" parent="cOHTzzDG18c5NZVRI5Rh-5" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="50" y="95" as="sourcePoint" />
             <mxPoint x="399.5" y="95" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cOHTzzDG18c5NZVRI5Rh-6" value="用户中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="418" y="113" width="100" height="413" as="geometry" />
+        <mxCell id="cOHTzzDG18c5NZVRI5Rh-6" value="用户中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="418" y="113" width="100" height="386" as="geometry" />
         </mxCell>
-        <mxCell id="u-cGchz_qDVYLQRvQrQZ-2" value="验证sessionkey有效性" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="cOHTzzDG18c5NZVRI5Rh-6" edge="1">
+        <mxCell id="u-cGchz_qDVYLQRvQrQZ-2" value="验证sessionkey有效性" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#FFF2CC;" parent="cOHTzzDG18c5NZVRI5Rh-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="51" y="237" as="sourcePoint" />
             <Array as="points">
@@ -28,10 +28,10 @@
             <mxPoint x="56" y="261" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u-cGchz_qDVYLQRvQrQZ-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="cOHTzzDG18c5NZVRI5Rh-6" vertex="1">
+        <mxCell id="u-cGchz_qDVYLQRvQrQZ-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=none;" parent="cOHTzzDG18c5NZVRI5Rh-6" vertex="1">
           <mxGeometry x="46" y="257" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Y87x2AK9z4zEFqLmgnwZ-1" value="验证cas.com域下的cookie&lt;br&gt;&amp;nbsp;sid的有效性，如果有效将&lt;br&gt;登录态续期" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="cOHTzzDG18c5NZVRI5Rh-6" edge="1">
+        <mxCell id="Y87x2AK9z4zEFqLmgnwZ-1" value="验证cas.com域下的cookie&lt;br&gt;&amp;nbsp;sid的有效性，如果有效将&lt;br&gt;登录态续期" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#FFF2CC;" parent="cOHTzzDG18c5NZVRI5Rh-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="51" y="163" as="sourcePoint" />
             <Array as="points">
@@ -40,37 +40,37 @@
             <mxPoint x="56" y="187" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y87x2AK9z4zEFqLmgnwZ-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="cOHTzzDG18c5NZVRI5Rh-6" vertex="1">
+        <mxCell id="Y87x2AK9z4zEFqLmgnwZ-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=none;" parent="cOHTzzDG18c5NZVRI5Rh-6" vertex="1">
           <mxGeometry x="46" y="183" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cOHTzzDG18c5NZVRI5Rh-7" value="系统A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="588" y="113" width="100" height="410" as="geometry" />
+        <mxCell id="cOHTzzDG18c5NZVRI5Rh-7" value="系统A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="588" y="113" width="100" height="386" as="geometry" />
         </mxCell>
-        <mxCell id="cOHTzzDG18c5NZVRI5Rh-15" value="传递sessionkey给cas&lt;br&gt;GET http://cas.com/session/validate?sessionkey=&amp;nbsp;sessionkey" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;dashed=1;labelBackgroundColor=#F4F1DE;" parent="1" edge="1">
+        <mxCell id="cOHTzzDG18c5NZVRI5Rh-15" value="传递sessionkey给cas&lt;br&gt;GET http://cas.com/session/validate?sessionkey=&amp;nbsp;sessionkey" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;dashed=1;labelBackgroundColor=none;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="637.5" y="257" as="sourcePoint" />
             <mxPoint x="468" y="257" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cOHTzzDG18c5NZVRI5Rh-16" value="验证通过，返回用户信息" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" edge="1">
+        <mxCell id="cOHTzzDG18c5NZVRI5Rh-16" value="验证通过，返回用户信息" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=none;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="469" y="433" as="sourcePoint" />
             <mxPoint x="639" y="433" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tDoBP8PQl3Mzpf3dStTA-1" value="&amp;nbsp;302 Location http://a.com/page2" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;dashed=1;labelBackgroundColor=#F4F1DE;" parent="1" edge="1">
+        <mxCell id="tDoBP8PQl3Mzpf3dStTA-1" value="&amp;nbsp;302 Location http://a.com/page2" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;dashed=1;labelBackgroundColor=none;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="635" y="474" as="sourcePoint" />
-            <mxPoint x="287" y="474" as="targetPoint" />
+            <mxPoint x="635" y="460" as="sourcePoint" />
+            <mxPoint x="287" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tDoBP8PQl3Mzpf3dStTA-2" value="show page" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;dashed=1;labelBackgroundColor=#F4F1DE;" parent="1" edge="1">
+        <mxCell id="tDoBP8PQl3Mzpf3dStTA-2" value="show page" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;dashed=1;labelBackgroundColor=none;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="284" y="487" as="sourcePoint" />
-            <mxPoint x="126" y="487" as="targetPoint" />
+            <mxPoint x="284" y="477" as="sourcePoint" />
+            <mxPoint x="126" y="477" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u-cGchz_qDVYLQRvQrQZ-1" value="访问A系统的另一个需要认证的页面&lt;br&gt;http://a.com/page2" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" edge="1">
+        <mxCell id="u-cGchz_qDVYLQRvQrQZ-1" value="访问A系统的另一个需要认证的页面&lt;br&gt;http://a.com/page2" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=none;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="129" y="195" as="sourcePoint" />
             <mxPoint x="289" y="195" as="targetPoint" />
