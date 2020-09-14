@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2020-09-14T10:04:27.592Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" version="13.6.5" etag="1D_eyzt3pqfcNPBqN7OG" type="github"><diagram id="3sJmwWHuC3y5HuRblNoI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-14T10:08:26.889Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="U4s45r-uLJJIFIPaw_uS" version="13.6.5" type="github">
+  <diagram id="3sJmwWHuC3y5HuRblNoI" name="Page-1">
+    <mxGraphModel dx="2893" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ATobDdn7_iabuAxhh3ML-1" value="SDK合入系统&lt;br&gt;（国内）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ATobDdn7_iabuAxhh3ML-2" value="组件负责人" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ATobDdn7_iabuAxhh3ML-3" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ATobDdn7_iabuAxhh3ML-2" target="ATobDdn7_iabuAxhh3ML-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="560" as="sourcePoint" />
+            <mxPoint x="210" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATobDdn7_iabuAxhh3ML-5" value="发布新组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="370" width="68" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ATobDdn7_iabuAxhh3ML-8" value="AWS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ATobDdn7_iabuAxhh3ML-10" value="" style="endArrow=classic;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ATobDdn7_iabuAxhh3ML-1" target="ATobDdn7_iabuAxhh3ML-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="560" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATobDdn7_iabuAxhh3ML-11" value="上传AWS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ATobDdn7_iabuAxhh3ML-10">
+          <mxGeometry x="-0.1134" y="-66" relative="1" as="geometry">
+            <mxPoint x="66" y="-70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATobDdn7_iabuAxhh3ML-12" value="SDK下载国际站&lt;br&gt;（新加坡）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ATobDdn7_iabuAxhh3ML-13" value="" style="endArrow=classic;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ATobDdn7_iabuAxhh3ML-8" target="ATobDdn7_iabuAxhh3ML-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="560" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATobDdn7_iabuAxhh3ML-14" value="下载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ATobDdn7_iabuAxhh3ML-13">
+          <mxGeometry x="-0.0689" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
