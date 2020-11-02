@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T12:17:22.023Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="mVDOPqUgNNheIaIjRa4u" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T12:18:46.459Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="5BA1ju4qShUqwuAWWnRb" version="13.6.10" type="github">
   <diagram id="-WVRBFQW5tqCqgf4TaMG" name="Page-1">
     <mxGraphModel dx="3266" dy="984" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,8 +97,8 @@
             <mxPoint x="53" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rb82lVdkNGF22lnS7Dor-47" value="(需要携带auth_code、client_id和backurl)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1011" y="371" width="225" height="20" as="geometry" />
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-47" value="(需要携带auth_code、client_id和第一步的backurl)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1044" y="371" width="288" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Rb82lVdkNGF22lnS7Dor-48" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=14;fillColor=#FFA866;strokeColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="-1009" y="461" width="20" height="20" as="geometry" />
