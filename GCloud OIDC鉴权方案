@@ -1,1 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T12:03:37.504Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.6.10" etag="4C-CBPn7LCr--YnrG4zx" type="github"><diagram id="-WVRBFQW5tqCqgf4TaMG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-02T12:17:22.023Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="mVDOPqUgNNheIaIjRa4u" version="13.6.10" type="github">
+  <diagram id="-WVRBFQW5tqCqgf4TaMG" name="Page-1">
+    <mxGraphModel dx="3266" dy="984" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rb82lVdkNGF22lnS7Dor-2" target="Rb82lVdkNGF22lnS7Dor-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-540" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-2" value="GCloud用户中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rb82lVdkNGF22lnS7Dor-37" target="Rb82lVdkNGF22lnS7Dor-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-910" y="240" as="sourcePoint" />
+            <mxPoint x="-500" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-5" value="请求登陆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="220" width="68" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rb82lVdkNGF22lnS7Dor-26" target="Rb82lVdkNGF22lnS7Dor-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-380" y="370" />
+              <mxPoint x="-710" y="370" />
+            </Array>
+            <mxPoint x="-660" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-19" value="登陆完成回跳用户中心" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rb82lVdkNGF22lnS7Dor-18">
+          <mxGeometry x="-0.1818" relative="1" as="geometry">
+            <mxPoint x="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-50" value="后续请求均需要携带token到用户中心认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rb82lVdkNGF22lnS7Dor-18">
+          <mxGeometry x="-0.1818" relative="1" as="geometry">
+            <mxPoint x="-373" y="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-26" value="第三方登录平台&lt;br&gt;（OA、QQ等）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-28" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=14;fillColor=#FFA866;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="329" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-29" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=14;fillColor=#FFA866;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="200" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-30" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=14;fillColor=#FFA866;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="340" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-31" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=14;fillColor=#FFA866;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="-895" y="90" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-34" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=14;fillColor=#FFA866;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="-906" y="200" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-37" value="第三方系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-38" value="(参数中携带client_id和backurl)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="240" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rb82lVdkNGF22lnS7Dor-2" target="Rb82lVdkNGF22lnS7Dor-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-710" y="120" />
+              <mxPoint x="-1070" y="120" />
+            </Array>
+            <mxPoint x="-710" y="100" as="sourcePoint" />
+            <mxPoint x="-1070" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-42" value="回跳第三方系统" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rb82lVdkNGF22lnS7Dor-41">
+          <mxGeometry x="-0.1818" relative="1" as="geometry">
+            <mxPoint x="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-43" value="(通过参数携带auth_code)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="129" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rb82lVdkNGF22lnS7Dor-37" target="Rb82lVdkNGF22lnS7Dor-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1070" y="370" />
+              <mxPoint x="-740" y="370" />
+            </Array>
+            <mxPoint x="-370" y="280" as="sourcePoint" />
+            <mxPoint x="-700" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-46" value="换取token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rb82lVdkNGF22lnS7Dor-45">
+          <mxGeometry x="-0.1818" relative="1" as="geometry">
+            <mxPoint x="53" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-47" value="(需要携带auth_code、client_id和backurl)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1011" y="371" width="225" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-48" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=14;fillColor=#FFA866;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="-1009" y="461" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rb82lVdkNGF22lnS7Dor-51" value="跳转第三方登陆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-586" y="220" width="94" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
