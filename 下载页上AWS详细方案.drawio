@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-11-09T08:01:16.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="-BAJUk9gh5UnsMN3RZpg" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-09T10:54:33.352Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="B05PbNKFVMYbBaT-kyZN" version="13.8.8" type="github">
   <diagram id="3sJmwWHuC3y5HuRblNoI" name="Page-1">
-    <mxGraphModel dx="2893" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2866" dy="984" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="48NXh24DLfGN-_I6xpfl-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#3333FF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="61" y="239" width="435" height="133" as="geometry" />
+        </mxCell>
         <mxCell id="ATobDdn7_iabuAxhh3ML-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ATobDdn7_iabuAxhh3ML-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-240" y="320" as="targetPoint" />
@@ -21,8 +24,8 @@
             <mxPoint x="-200" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ATobDdn7_iabuAxhh3ML-5" value="发布新组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="300" width="68" height="20" as="geometry" />
+        <mxCell id="ATobDdn7_iabuAxhh3ML-5" value="发布新SDK版本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-590" y="300" width="88" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uo3p1n60BAuQ-Tskl4PL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ATobDdn7_iabuAxhh3ML-12" target="uo3p1n60BAuQ-Tskl4PL-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -32,7 +35,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ATobDdn7_iabuAxhh3ML-12" value="下载页国际站&lt;br&gt;（新加坡）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ATobDdn7_iabuAxhh3ML-12" value="前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="350" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ATobDdn7_iabuAxhh3ML-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ATobDdn7_iabuAxhh3ML-1" target="ATobDdn7_iabuAxhh3ML-12" edge="1">
@@ -69,7 +72,7 @@
             <mxPoint x="10" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uo3p1n60BAuQ-Tskl4PL-4" value="国际站AWS服务器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="uo3p1n60BAuQ-Tskl4PL-4" value="后端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="80" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uo3p1n60BAuQ-Tskl4PL-5" value="通过硬盘挂载方式自动同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -111,6 +114,9 @@
         </mxCell>
         <mxCell id="48NXh24DLfGN-_I6xpfl-3" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=14;fillColor=#FFA866;strokeColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="110" y="120" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="48NXh24DLfGN-_I6xpfl-5" value="下载页国际站（新加坡AWS）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="74" y="253" width="277" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
