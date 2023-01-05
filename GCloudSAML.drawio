@@ -1,1 +1,142 @@
-<mxfile host="app.diagrams.net" modified="2023-01-05T02:52:08.304Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="q8v6KQ9jGcrk6XAAPksm" version="20.8.1" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-05T03:29:09.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="T2TwYv3s1ppesoRxDsTQ" version="20.8.1" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="2074" dy="973" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Identity Provider&#xa;(TOF) " style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="262" width="119" height="491" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="拉起统一身份认证，通过XML格式返回用户信息" style="verticalAlign=bottom;endArrow=open;endSize=8;shadow=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="433.5" y="436.9999999999998" as="targetPoint" />
+            <mxPoint x="759" y="436.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-1" value="Service Provider&#xa;（用户中心）" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="384" y="261" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-11" value="记录请求id和backurl的映射关系，存入redis" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="AZrzSn_KOJlQ9WZLP_Bj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="80" />
+              <mxPoint x="80" y="110" />
+              <mxPoint x="50" y="110" />
+            </Array>
+            <mxPoint x="50" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-12" value="从请求中获取步骤2记录的请求id&lt;br&gt;并从redis中获取回调地址backurl" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="AZrzSn_KOJlQ9WZLP_Bj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="203" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="203" />
+              <mxPoint x="80" y="233" />
+              <mxPoint x="50" y="233" />
+            </Array>
+            <mxPoint x="50" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-21" value="2" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontColor=#FF7803;" vertex="1" parent="AZrzSn_KOJlQ9WZLP_Bj-1">
+          <mxGeometry x="-19" y="75" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-22" value="3" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontColor=#FF7803;" vertex="1" parent="AZrzSn_KOJlQ9WZLP_Bj-1">
+          <mxGeometry x="-19" y="116" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-23" value="4" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontColor=#FF7803;" vertex="1" parent="AZrzSn_KOJlQ9WZLP_Bj-1">
+          <mxGeometry x="-19" y="156" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-24" value="5" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontColor=#FF7803;" vertex="1" parent="AZrzSn_KOJlQ9WZLP_Bj-1">
+          <mxGeometry x="-19" y="199" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-25" value="6" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontColor=#FF7803;" vertex="1" parent="AZrzSn_KOJlQ9WZLP_Bj-1">
+          <mxGeometry x="-19" y="252" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-26" value="7" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontColor=#FF7803;" vertex="1" parent="AZrzSn_KOJlQ9WZLP_Bj-1">
+          <mxGeometry x="-19" y="302" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-5" value="Consumer Service&#xa;（消费端，指具体业务）" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="91" y="260" width="140" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-20" value="1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontColor=#FF7803;" vertex="1" parent="AZrzSn_KOJlQ9WZLP_Bj-5">
+          <mxGeometry x="-23" y="49" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-27" value="8" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontColor=#FF7803;" vertex="1" parent="AZrzSn_KOJlQ9WZLP_Bj-5">
+          <mxGeometry x="-23" y="342" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-28" value="9" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontColor=#FF7803;" vertex="1" parent="AZrzSn_KOJlQ9WZLP_Bj-5">
+          <mxGeometry x="-23" y="377" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-29" value="10" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontColor=#FF7803;" vertex="1" parent="AZrzSn_KOJlQ9WZLP_Bj-5">
+          <mxGeometry x="-23" y="417" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-3" value="携带回调地址backurl，发起登录请求" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=0.8;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="AZrzSn_KOJlQ9WZLP_Bj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="162" y="331" as="sourcePoint" />
+            <mxPoint x="344" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-9" value="请求单点登录" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=0.51;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="0.011" relative="1" as="geometry">
+            <mxPoint x="435" y="398" as="sourcePoint" />
+            <mxPoint x="719" y="398.96000000000004" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-13" value="验证用户信息，生成sessionkey" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="519" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="465" y="519" />
+              <mxPoint x="465" y="549" />
+              <mxPoint x="435" y="549" />
+            </Array>
+            <mxPoint x="435" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-14" value="生成ticket到userid和sessionkey的映射存入redis" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="569" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="465" y="569" />
+              <mxPoint x="465" y="599" />
+              <mxPoint x="435" y="599" />
+            </Array>
+            <mxPoint x="435" y="599" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-16" value="将ticket拼接到backurl，并跳转" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=0.8;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="433.5" y="621" as="sourcePoint" />
+            <mxPoint x="162" y="621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-18" value="用ticket换取登录态（后端请求，走jwt校验）" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;entryX=0;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.011" relative="1" as="geometry">
+            <mxPoint x="164" y="658" as="sourcePoint" />
+            <mxPoint x="438" y="657.96" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-19" value="写入消费端登录态，完成登录" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="161" y="683" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="191" y="683" />
+              <mxPoint x="191" y="713" />
+              <mxPoint x="161" y="713" />
+            </Array>
+            <mxPoint x="161" y="713" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-32" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=2;size=20;indent=5;fontSize=20;fontColor=#FF7803;fillColor=none;dashed=1;strokeColor=#FF053F;" vertex="1" parent="1">
+          <mxGeometry x="393" y="378" width="389" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="AZrzSn_KOJlQ9WZLP_Bj-33" value="SAML协议" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeWidth=2;fontSize=20;fontColor=#FF0526;" vertex="1" parent="1">
+          <mxGeometry x="318" y="401.5" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
